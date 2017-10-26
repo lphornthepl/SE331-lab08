@@ -30,7 +30,12 @@ dependencies {
 	compile "org.springframework.boot:spring-boot-configuration-processor"
 	compile("org.springframework.boot:spring-boot-devtools")
 	compile("com.h2database:h2")
-
+	compile("org.projectlombok:lombok:1.16.18")
+	compile("org.springframework.boot:spring-boot-starter-data-jpa")
+	// https://mvnrepository.com/artifact/com.google.guava/guava
+	compile group: 'com.google.guava', name: 'guava', version: '19.0'
+	// https://mvnrepository.com/artifact/org.projectlombok/lombok-maven
+	compile group: 'org.projectlombok', name: 'lombok-maven', version: '1.16.18.1', ext: 'pom'
 
 }
 

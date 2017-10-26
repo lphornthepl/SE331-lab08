@@ -1,8 +1,9 @@
 spring:
   profiles:
-    active: firstDataSource, remote
+    active:
+      - firstDataSource
 server:
-  baseUrl: http://localhost:3000/
+  baseUrl: http://localhost:8080/
   imageUrl: images/
   imageServerDir : C:/images/lab07/
 ---
